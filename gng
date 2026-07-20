@@ -1,49 +1,46 @@
 /* ==========================================================================
    1. IMPORTS
    ========================================================================== */
- 
+
 @import url("https://eject37.github.io/DiscordTheme/BetterFont.css");
 @import url("https://eject37.github.io/DiscordTheme/HideTrash.css");
- 
- 
+
+
 /* ==========================================================================
    2. VARIABLES
    ========================================================================== */
- 
+
 :root {
-    /* Background */
     --app-bg: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDR5cmR6ZjYydWxtYmpwc3pwOHBkNmZjbnRldHAxYzQxZDNsbmw1dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ov9jWPi1AH2XUfI6Q/giphy.gif);
-    --blur-bg: 80px;
-    --blur-other: 30px;
+    --blur-bg: 60px;       /* redus de la 80px — mai puțin lag */
+    --blur-other: 20px;    /* redus de la 30px — mai puțin lag */
     --brightness-bg: 0.5;
- 
-    /* General styles */
+
     --color-main: rgba(255, 255, 255, 0.1);
     --border-main: 1px solid rgba(255, 255, 255, 0.1);
     --boxshadow: inset 0 0 10px rgba(100, 100, 100, 0.1);
 }
- 
- 
+
+
 /* ==========================================================================
    3. APP BACKGROUND
    ========================================================================== */
- 
+
 body {
     background: var(--app-bg) !important;
     background-position: 15% !important;
     background-size: 105% 105% !important;
 }
- 
-/* Background blur */
+
 .bg__960e4 {
     backdrop-filter: blur(var(--blur-bg)) brightness(var(--brightness-bg));
 }
- 
- 
+
+
 /* ==========================================================================
    4. BASE THEME (visual-refresh override)
    ========================================================================== */
- 
+
 .visual-refresh .theme-darker,
 .visual-refresh.theme-darker {
     --background-base-lowest: transparent;
@@ -54,7 +51,7 @@ body {
     --background-base-lower: transparent;
     --custom-channel-members-bg: transparent;
     --background-base-low: transparent;
- 
+
     --bg-brand: rgba(255, 255, 255, 0.2);
     --background-code: rgba(255, 255, 255, 0.05);
     --button-filled-brand-background: rgba(255, 255, 255, 0.1);
@@ -65,22 +62,21 @@ body {
     --background-mod-subtle: rgba(255, 255, 255, 0.15);
     --card-primary-bg: rgba(255, 255, 255, 0.15);
     --bg-base-secondary: rgba(255, 255, 255, 0.15);
- 
+
     --brand-500: rgba(91, 103, 234, 0.4);
     --text-feedback-positive: rgba(255, 255, 255, 0.65);
     --green-360: rgba(255, 255, 255, 0.65);
 }
- 
- 
+
+
 /* ==========================================================================
    5. CALLS & VOICE CHANNELS
    ========================================================================== */
- 
-/* Call background */
+
 .visual-refresh .root_bfe55a {
     background: transparent;
 }
- 
+
 .callContainer_cb9592 {
     background: transparent;
     box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.05);
@@ -90,49 +86,47 @@ body {
     margin-right: 10px;
     margin-top: 10px;
 }
- 
+
 .wrapper_cb9592.minimum_cb9592 {
     background: transparent !important;
 }
- 
-/* Screen share / fullscreen view (fix) */
+
 .gradientContainer_bfe55a {
     background-image: linear-gradient(
         rgba(255, 255, 255, 0.04) 0%,
         rgba(0, 0, 0, 0) 50%
     );
 }
- 
+
 .callContainer_cb9592:has(.actionRow__6981d) {
     margin: unset;
     border-radius: unset;
     border: unset;
     box-shadow: unset;
 }
- 
+
 .chat_f75fb0:has(.actionRow__6981d) {
     border: unset !important;
 }
- 
+
 .chat_f75fb0:has(.actionRow__6981d) .form_f75fb0 {
     margin: unset !important;
 }
- 
-/* Speaking indicator */
+
 .border__2f4f7.speaking__2f4f7 {
     box-shadow: 0px 0px 30px 10px rgba(255, 255, 255, 0.2) inset;
 }
- 
- 
+
+
 /* ==========================================================================
    6. CONTEXT MENU & POPUPS
    ========================================================================== */
- 
+
 .menu_c1e9c4 {
     background: rgba(0, 0, 0, 0.158);
     border: var(--border-main);
 }
- 
+
 .menu_c1e9c4::before {
     content: "";
     position: absolute;
@@ -145,254 +139,225 @@ body {
     z-index: -1;
     border-radius: 8px;
 }
- 
-/* Image open context */
+
 #image-context[class*="c1e9c47c23f12ca3-menu"] {
     backdrop-filter: blur(var(--blur-other));
 }
- 
- 
+
+
 /* ==========================================================================
    7. TOOLTIPS
    ========================================================================== */
- 
-/* Base tooltip */
+
 .tooltip_c36707 {
     background: rgba(0, 0, 0, 0.15) !important;
     backdrop-filter: blur(var(--blur-other));
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
- 
+
 .tooltipPrimary_c36707 .tooltipPointer_c36707 {
     display: none;
 }
- 
-/* Chat tooltips */
+
 .visual-refresh .wrapper_f7ecac {
     background: transparent;
     backdrop-filter: blur(var(--blur-other));
     border: var(--border-main);
 }
- 
-/* Server reaction tooltips */
+
 .reactionTooltip_b49891 {
     background: rgba(255, 255, 255, 0) !important;
     backdrop-filter: blur(var(--blur-other));
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
- 
- 
+
+
 /* ==========================================================================
    8. PROFILES
    ========================================================================== */
- 
-/* Banner (top of profile) */
+
 .banner__68edb {
     background: rgba(255, 255, 255, 0.05) !important;
 }
- 
-/* Profile modal background and LMB */
+
 .user-profile-modal,
 .root__24502,
 .inner_c0bea0 {
     background: transparent !important;
     backdrop-filter: blur(10px);
 }
- 
+
 .outer_c0bea0,
 .inner_c0bea0 {
     background: rgba(255, 255, 255, 0.05) !important;
 }
- 
-/* Status dot on own profile */
+
 .outer_ab8609 {
     background: transparent;
 }
- 
-/* Account card */
+
 .accountProfileCard__1fed1 {
     border: var(--border-main);
 }
- 
-/* Side info in profile */
+
 :where(.overlay_c0bea0) {
     background: rgba(145, 145, 145, 0.1);
     border: var(--border-main) !important;
 }
- 
- 
+
+
 /* ==========================================================================
    9. CHAT
    ========================================================================== */
- 
+
 .channelBottomBarArea_f75fb0 {
     backdrop-filter: blur(var(--blur-other));
 }
- 
+
 .channelTextArea_f75fb0 {
     background: transparent !important;
 }
- 
-/* Scrollable container */
+
 .scrollableContainer__74017 {
     background: rgba(255, 255, 255, 0.03) !important;
     border: var(--border-main);
     box-shadow: var(--boxshadow);
 }
- 
-/* File download button (hover group) */
+
 .hoverButtonGroup__06ab4 {
     background: rgba(255, 255, 255, 0.1);
     border: var(--border-main) !important;
     backdrop-filter: blur(var(--blur-other));
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
 }
- 
- 
+
+
 /* ==========================================================================
    10. PINNED MESSAGES
    ========================================================================== */
- 
+
 .visual-refresh .messagesPopoutWrap_e8b59c,
 .visual-refresh .messageGroupWrapper_e8b59c {
     background: rgba(120, 120, 120, 0.1);
     backdrop-filter: blur(10px);
 }
- 
+
 .visual-refresh .header_e8b59c {
     background: rgba(0, 0, 0, 0.3);
     border-bottom: var(--border-main) !important;
 }
- 
+
 .visual-refresh .file__0ccae {
     background: rgba(0, 0, 0, 0.3);
 }
- 
+
 .visual-refresh .jumpButton_e8b59c {
     background: rgba(0, 0, 0, 0.35);
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
 }
- 
- 
+
+
 /* ==========================================================================
    11. CONTROL PANELS
    ========================================================================== */
- 
-/* --- Bottom panel: call status etc. --- */
+
 .visual-refresh .panels__5e434 {
     background: rgba(255, 255, 255, 0.03) !important;
     border: var(--border-main) !important;
     backdrop-filter: blur(var(--blur-bg));
     box-shadow: var(--boxshadow);
 }
- 
+
 .panel__5dec7 {
     background: transparent !important;
 }
- 
-/* --- Voice channel control panel --- */
+
 .buttonSection__1405b {
     background:
         radial-gradient(90.42% 100% at 50% 100%, rgba(19, 18, 18, 0.5) 60%, transparent 100%),
         linear-gradient(270deg, rgba(40, 39, 43, 0.5) 0, rgba(29, 29, 32, 0.5) 100%) !important;
     backdrop-filter: blur(10px);
 }
- 
+
 .disconnect_f1ceac {
     background:
         radial-gradient(90.42% 100% at 50% 100%, rgba(19, 18, 18, 0.5) 60%, transparent 100%),
         linear-gradient(270deg, rgba(122, 71, 90, 0.5) 0, rgba(122, 71, 86, 0.5) 100%) !important;
 }
- 
+
 .buttonSection__1405b,
 .disconnect_f1ceac {
     border: none;
 }
- 
- 
+
+
 /* ==========================================================================
    12. BUTTONS & INTERACTIVE ELEMENTS
    ========================================================================== */
- 
-/* "Read All" button (Vencord ReadAllNotificationsButton plugin) */
+
 button.vc-ranb-button.button__201d5.lookFilled__201d5.sizeMin__201d5.grow__201d5 {
     border: none;
 }
- 
-/* Checkbox (checked state) */
+
 .container__3f21e.checked__3f21e {
     background-color: rgba(255, 255, 255, 0.24) !important;
 }
- 
-/* Pressed buttons (purple-pink gradient) */
+
 :where(.visual-refresh) .checkbox_f525d3.checked_f525d3 {
     background:
         radial-gradient(90.42% 100% at 50% 100%, rgba(226, 135, 135, 0.5) 60%, transparent 100%),
         linear-gradient(270deg, rgba(31, 17, 119, 0.5) 0, rgba(130, 110, 238, 0.5) 100%) !important;
     border: none;
 }
- 
- 
+
+
 /* ==========================================================================
    13. PROGRESS BARS & INDICATORS
    ========================================================================== */
- 
-/* Volume bar fill — Discord default (no override, gold gradient removed) */
 
-/* Mic test bar — force Discord default, block all theme bleed */
-.visualizer_a562c8,
-.wrapperMicTest_a562c8,
-[class*="micTest"],
-[class*="visualizer"] {
-    background: #1e1f22 !important;
-    backdrop-filter: none !important;
-    background-image: none !important;
+/* Mic test bar wrapper — hide the grey box that appears behind the SVG */
+[class*="wrapperMicTest"],
+[class*="micTest"] {
+    background: transparent !important;
+    box-shadow: none !important;
 }
- 
- 
+
+
 /* ==========================================================================
    14. MISC
    ========================================================================== */
- 
-/* --- Screen share grant --- */
- 
+
 /* Hide art */
 .artContainer_a55fdc {
     display: none !important;
 }
- 
-/* Bottom / top */
+
 .border_a55fdc,
 .modalFooter_a55fdc {
     background-color: rgba(255, 255, 255, 0.05) !important;
     backdrop-filter: blur(20px);
 }
- 
-/* Gradient */
+
 .visual-refresh .container_a55fdc {
     background:
         radial-gradient(90.42% 100% at 50% 100%, rgba(0, 0, 0, 0) 60%, transparent 100%),
         linear-gradient(270deg, rgba(27, 27, 29, 0.5) 0, rgba(35, 35, 39, 0.5) 100%);
 }
- 
- 
-/* --- Region change --- */
+
 .quickSelectPopout_ebaca5 {
     background: rgba(255, 255, 255, 0.15) !important;
     backdrop-filter: blur(10px);
 }
- 
- 
-/* --- MessageBox --- */
+
 .root__49fc1 {
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
 }
- 
+
 .footer__49fc1 {
     background: transparent;
 }
- 
+
 .container_abd9a8 {
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);

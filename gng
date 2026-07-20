@@ -339,10 +339,14 @@ button.vc-ranb-button.button__201d5.lookFilled__201d5.sizeMin__201d5.grow__201d5
  
 /* Volume bar fill — Discord default (no override, gold gradient removed) */
 
-/* Mic test bar — force back to Discord default dark grey (overrides transparent theme) */
-.visualizer_a562c8 {
-    background: #2b2d31 !important;
+/* Mic test bar — force Discord default, block all theme bleed */
+.visualizer_a562c8,
+.wrapperMicTest_a562c8,
+[class*="micTest"],
+[class*="visualizer"] {
+    background: #1e1f22 !important;
     backdrop-filter: none !important;
+    background-image: none !important;
 }
  
  

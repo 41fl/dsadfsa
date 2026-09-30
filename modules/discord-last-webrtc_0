@@ -1,0 +1,147 @@
+[2025-06-07 20:36:53.313] [8304] (engine.cpp:511): Created native engine, time: 06/07/25 20:36:53 New Zealand Standard Time, logPath: \\?\C:\Users\GGPC\AppData\Local\Discord\app-1.0.9194\modules\discord_voice-1\discord_voice\, logLevel: 2
+[2025-06-07 20:36:53.313] [8304] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats.
+[2025-06-07 20:36:53.313] [8304] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats.
+[2025-06-07 20:36:53.313] [8304] (audio_processing_impl.cc:695): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2025-06-07 20:36:53.314] [8304] (audio_processing_impl.cc:708): AudioProcessing: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-06-07 20:36:53.314] [8304] (audio_processing_impl.cc:911): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-06-07 20:36:53.314] [8304] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats.
+[2025-06-07 20:36:53.314] [8304] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats.
+[2025-06-07 20:36:53.314] [8304] (audio_processing_impl.cc:695): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2025-06-07 20:36:53.314] [8304] (audio_processing_impl.cc:708): AudioProcessing: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-06-07 20:36:53.314] [8304] (audio_engine.cpp:473): Creating audio engine: experimental
+[2025-06-07 20:36:53.314] [8304] (audio_coding.cpp:156): Using software Opus decoder
+[2025-06-07 20:36:53.314] [8304] (audio_coding.cpp:173): Using software Opus encoder
+[2025-06-07 20:36:53.320] [8304] (audio_engine.cpp:182): Setting audio input device: 'default'
+[2025-06-07 20:36:53.320] [8304] (rust_adm.cpp:404): Not implemented
+[2025-06-07 20:36:53.320] [8304] (rust_adm.cpp:399): Not implemented
+[2025-06-07 20:36:53.320] [8304] (rust_adm.cpp:404): Not implemented
+[2025-06-07 20:36:53.320] [8304] (rust_adm.cpp:341): Not implemented
+[2025-06-07 20:36:53.320] [8304] (audio_engine.cpp:199): Setting audio output device: 'default'
+[2025-06-07 20:36:53.320] [8304] (rust_adm.cpp:384): Not implemented
+[2025-06-07 20:36:53.320] [8304] (rust_adm.cpp:389): Not implemented
+[2025-06-07 20:36:53.322] [8304] (audio_processing_impl.cc:911): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-06-07 20:36:53.322] [8304] (matched_filter.cc:141): AEC3: Pre echo configuration:  threshold = 0.5, mode =  3.
+[2025-06-07 20:36:53.322] [8304] (transparent_mode.cc:239): AEC3 Transparent Mode: Legacy
+[2025-06-07 20:36:53.322] [8304] (echo_canceller3.cc:793): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2025-06-07 20:36:53.322] [8304] (audio_processing_impl.cc:911): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-06-07 20:36:53.322] [8304] (clipping_predictor.cc:358): [AGC2] Clipping prediction disabled.
+[2025-06-07 20:36:53.322] [8304] (agc_manager_direct.cc:481): [agc] analog controller enabled: yes
+[2025-06-07 20:36:53.322] [8304] (agc_manager_direct.cc:484): [agc] Min mic level: 12 (overridden: no)
+[2025-06-07 20:36:53.322] [8304] (captured_audio_processor.cpp:127): SetNoiseCancellation: 0
+[2025-06-07 20:36:53.322] [8304] (audio_processing_impl.cc:911): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-06-07 20:36:53.322] [8304] (engine.cpp:538): Start checking if AV1 is supported
+[2025-06-07 20:36:53.322] [8304] (field_trial.cc:164): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2025-06-07 20:36:53.329] [8304] (engine.cpp:225): *** OnDevicesChanged:
+[2025-06-07 20:36:53.329] [8304] (engine.cpp:226): * audioInput:
+[2025-06-07 20:36:53.329] [8304] (engine.cpp:231): * audioOutput:
+[2025-06-07 20:36:53.331] [2780] (encoder_prober.rs:48): INFO [video_webrtc_interop::encode::encoder_prober] Start the helper process for Nvidia
+[2025-06-07 20:36:53.331] [2780] (encoder_prober.rs:114): INFO [video_webrtc_interop::encode::encoder_prober] Exit status is not available, keep probing for Nvidia
+[2025-06-07 20:36:53.331] [10996] (encoder_prober.rs:48): INFO [video_webrtc_interop::encode::encoder_prober] Start the helper process for Amd
+[2025-06-07 20:36:53.332] [10996] (encoder_prober.rs:114): INFO [video_webrtc_interop::encode::encoder_prober] Exit status is not available, keep probing for Amd
+[2025-06-07 20:36:53.333] [20332] (encoder_prober.rs:48): INFO [video_webrtc_interop::encode::encoder_prober] Start the helper process for Intel
+[2025-06-07 20:36:53.333] [20332] (encoder_prober.rs:114): INFO [video_webrtc_interop::encode::encoder_prober] Exit status is not available, keep probing for Intel
+[2025-06-07 20:36:53.411] [2780] (encoder_prober.rs:69): INFO [video_webrtc_interop::encode::encoder_prober] Helper process for Nvidia exited with exit_code exit code: 0
+[2025-06-07 20:36:53.411] [2780] (encoder_prober.rs:94): INFO [video_webrtc_interop::encode::encoder_prober] Read a json message of 92 bytes from helper process for Nvidia: {"Nvidia":{"cuda":{"Error":"Cuda(ModuleLoadFailed)\n"},"dx11":{"Error":"ModuleNotFound\n"}}}
+[2025-06-07 20:36:53.411] [8304] (encoder_prober.rs:135): ERROR [video_webrtc_interop::encode::encoder_prober] Error in probing Nvidia gpu encoder with cuda context: Cuda(ModuleLoadFailed)
+
+[2025-06-07 20:36:53.411] [8304] (encoder_prober.rs:142): ERROR [video_webrtc_interop::encode::encoder_prober] Error in probing Nvidia gpu encoder with dx11 device: ModuleNotFound
+
+[2025-06-07 20:36:53.412] [10996] (encoder_prober.rs:114): INFO [video_webrtc_interop::encode::encoder_prober] Exit status is not available, keep probing for Amd
+[2025-06-07 20:36:53.413] [20332] (encoder_prober.rs:69): INFO [video_webrtc_interop::encode::encoder_prober] Helper process for Intel exited with exit_code exit code: 0
+[2025-06-07 20:36:53.413] [20332] (encoder_prober.rs:94): INFO [video_webrtc_interop::encode::encoder_prober] Read a json message of 74 bytes from helper process for Intel: {"Intel":{"basic":{"Error":"Unsupported"},"dx11":{"Error":"Unsupported"}}}
+[2025-06-07 20:36:53.492] [10996] (encoder_prober.rs:69): INFO [video_webrtc_interop::encode::encoder_prober] Helper process for Amd exited with exit_code exit code: 0
+[2025-06-07 20:36:53.492] [10996] (encoder_prober.rs:94): INFO [video_webrtc_interop::encode::encoder_prober] Read a json message of 65 bytes from helper process for Amd: {"Amd":{"dx11":{"Success":{"h264":true,"h265":true,"av1":true}}}}
+[2025-06-07 20:36:53.493] [8304] (encoder_prober.rs:163): ERROR [video_webrtc_interop::encode::encoder_prober] Error in probing Intel gpu encoder with dx11 buffer: Unsupported
+[2025-06-07 20:36:53.493] [8304] (encoder_prober.rs:170): ERROR [video_webrtc_interop::encode::encoder_prober] Error in probing intel gpu encoder with cpu buffer: Unsupported
+[2025-06-07 20:36:53.493] [8304] (encoder_prober.rs:215): INFO [video_webrtc_interop::encode::encoder_prober] gpu encoder probing results: GpuEncoderInfo { nvidia_support: GpuEncoderSupport { h264: false, h265: false, av1: false }, amd_support: GpuEncoderSupport { h264: true, h265: true, av1: true }, intel_support: GpuEncoderSupport { h264: false, h265: false, av1: false } }
+[2025-06-07 20:36:53.493] [8304] (audio_engine.cpp:182): Setting audio input device: 'default'
+[2025-06-07 20:36:53.493] [8304] (rust_adm.cpp:404): Not implemented
+[2025-06-07 20:36:53.493] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.493] [8304] (rust_adm.cpp:399): Not implemented
+[2025-06-07 20:36:53.493] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.493] [8304] (rust_adm.cpp:404): Not implemented
+[2025-06-07 20:36:53.493] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.493] [8304] (rust_adm.cpp:341): Not implemented
+[2025-06-07 20:36:53.493] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.493] [8304] (audio_engine.cpp:199): Setting audio output device: 'default'
+[2025-06-07 20:36:53.493] [8304] (rust_adm.cpp:384): Not implemented
+[2025-06-07 20:36:53.493] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.493] [8304] (rust_adm.cpp:389): Not implemented
+[2025-06-07 20:36:53.493] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.494] [8304] (engine.cpp:225): *** OnDevicesChanged:
+[2025-06-07 20:36:53.494] [8304] (engine.cpp:226): * audioInput:
+[2025-06-07 20:36:53.494] [8304] (engine.cpp:229): - default (Microphone (Yeti X)) ({0.0.1.00000000}.{96b473d0-b01a-4bc1-9a8e-0bcb1da3df3c})
+[2025-06-07 20:36:53.494] [8304] (engine.cpp:229): - Microphone (Yeti X) ({0.0.1.00000000}.{96b473d0-b01a-4bc1-9a8e-0bcb1da3df3c})
+[2025-06-07 20:36:53.494] [8304] (engine.cpp:229): - CABLE Output (VB-Audio Virtual Cable) ({0.0.1.00000000}.{b7bb3458-457a-4825-a15c-f5ce074259f7})
+[2025-06-07 20:36:53.494] [8304] (engine.cpp:231): * audioOutput:
+[2025-06-07 20:36:53.494] [8304] (engine.cpp:234): - default (Speakers (Yeti X)) ({0.0.0.00000000}.{7adc4960-099e-4dcf-838d-4e9914d6cae5})
+[2025-06-07 20:36:53.494] [8304] (engine.cpp:234): - Speakers (Yeti X) ({0.0.0.00000000}.{7adc4960-099e-4dcf-838d-4e9914d6cae5})
+[2025-06-07 20:36:53.494] [8304] (engine.cpp:234): - 1 - 27A2R (AMD High Definition Audio Device) ({0.0.0.00000000}.{6743693a-bcfa-41c9-a420-6cb5227747fe})
+[2025-06-07 20:36:53.494] [8304] (engine.cpp:234): - CABLE Input (VB-Audio Virtual Cable) ({0.0.0.00000000}.{86c1d03e-e8f8-4e34-8dac-9da41a9af1f9})
+[2025-06-07 20:36:53.494] [8304] (engine.cpp:234): - CABLE In 16 Ch (VB-Audio Virtual Cable) ({0.0.0.00000000}.{e6964698-5db2-4be9-bcb3-ce73f96ba2b9})
+[2025-06-07 20:36:53.494] [8304] (audio_engine.cpp:182): Setting audio input device: '{0.0.1.00000000}.{96b473d0-b01a-4bc1-9a8e-0bcb1da3df3c}'
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:404): Not implemented
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.494] [8304] (device_ffi.rs:164): INFO [audio_interop::device_ffi] RsAudioRecordingSource selecting device by guid {0.0.1.00000000}.{96b473d0-b01a-4bc1-9a8e-0bcb1da3df3c}
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:399): Not implemented
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:404): Not implemented
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:341): Not implemented
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.494] [8304] (audio_engine.cpp:199): Setting audio output device: '{0.0.0.00000000}.{7adc4960-099e-4dcf-838d-4e9914d6cae5}'
+[2025-06-07 20:36:53.494] [8304] (device_ffi.rs:164): INFO [audio_interop::device_ffi] RsAudioPlaybackSink selecting device by guid {0.0.0.00000000}.{7adc4960-099e-4dcf-838d-4e9914d6cae5}
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:384): Not implemented
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:389): Not implemented
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:341): Not implemented
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.494] [8304] (engine_audio_transport.cpp:547): EngineAudioTransport::SetSidechainCompression 0
+[2025-06-07 20:36:53.494] [8304] (engine_audio_transport.cpp:558): EngineAudioTransport::ApplySidechainCompressionSettings  threshold: -32.5 ratio: 0.433333
+[2025-06-07 20:36:53.494] [8304] (audio_engine.cpp:182): Setting audio input device: 'default'
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:404): Not implemented
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:399): Not implemented
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:404): Not implemented
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:341): Not implemented
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.494] [8304] (audio_engine.cpp:199): Setting audio output device: 'default'
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:384): Not implemented
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:389): Not implemented
+[2025-06-07 20:36:53.494] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.653] [8304] (audio_engine.cpp:182): Setting audio input device: '{0.0.1.00000000}.{96b473d0-b01a-4bc1-9a8e-0bcb1da3df3c}'
+[2025-06-07 20:36:53.653] [8304] (rust_adm.cpp:404): Not implemented
+[2025-06-07 20:36:53.653] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.653] [8304] (device_ffi.rs:164): INFO [audio_interop::device_ffi] RsAudioRecordingSource selecting device by guid {0.0.1.00000000}.{96b473d0-b01a-4bc1-9a8e-0bcb1da3df3c}
+[2025-06-07 20:36:53.653] [8304] (rust_adm.cpp:399): Not implemented
+[2025-06-07 20:36:53.653] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.653] [8304] (rust_adm.cpp:404): Not implemented
+[2025-06-07 20:36:53.653] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.653] [8304] (rust_adm.cpp:341): Not implemented
+[2025-06-07 20:36:53.653] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.653] [8304] (audio_engine.cpp:199): Setting audio output device: '{0.0.0.00000000}.{7adc4960-099e-4dcf-838d-4e9914d6cae5}'
+[2025-06-07 20:36:53.653] [8304] (device_ffi.rs:164): INFO [audio_interop::device_ffi] RsAudioPlaybackSink selecting device by guid {0.0.0.00000000}.{7adc4960-099e-4dcf-838d-4e9914d6cae5}
+[2025-06-07 20:36:53.653] [8304] (rust_adm.cpp:384): Not implemented
+[2025-06-07 20:36:53.653] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:53.653] [8304] (rust_adm.cpp:389): Not implemented
+[2025-06-07 20:36:53.653] [8304] (rust_adm.cpp:481): Audio device module error: -100, device: 
+[2025-06-07 20:36:54.014] [18224] JS console: [GatewaySocket] [FAST CONNECT] successfully took over websocket, state:
+[2025-06-07 20:36:54.014] [18224] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 1 ms
+[2025-06-07 20:36:55.222] [18224] JS console: [GatewaySocket] [READY] took 1209ms, as fbff63e337336a11efd29b07e7d534b4
+[2025-06-07 20:36:55.565] [18224] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 1552ms
+[2025-06-07 20:36:57.652] [8304] (engine.cpp:1053): Engine::SetClipBufferLength(0)
+[2025-06-07 20:36:57.652] [18224] (discord.cpp:464): Applying Clips Settings:  frame_rate: 30 width: 1920 height: 1080
